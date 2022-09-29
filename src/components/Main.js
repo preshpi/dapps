@@ -6,11 +6,10 @@ function Main() {
       <img src={require('../images/linebg.png')} className="w-full h-full object-cover absolute rounded-lg"/>
         <div className="grid lg:grid-cols-2 place-content-center m-5">
              <div className="md:items-start lg:text-start text-center m-8 w-[400px] md:w-[500px] place-items-center">
-                <p className="tracking-wide text-black text-lg font-semibold m-4 block dark:text-white lg:leading-8 leading-7" data-aos="fade-left">
-                SIFU INU, WORLDS MOST AIRDROPS WITH THE HIGHEST APY!
+                <p className="tracking-wide text-white text-lg font-semibold m-4 block dark:text-white lg:leading-8 leading-7" data-aos="fade-left">
+                SIFU INU, WORLDS MOST AIRDROPS WITH THE HIGHEST APY! <br/>
                 LSP or Lodicoin Staking Protocol is a decentralize revolutionary approach to a financial asset, that makes staking more profitable and provides $LODI token holders with a high realistic crypto return. A decentralized coin on the Binance Smart Chain that is backed by the $LODICOIN Bank Reserve or BBR and is controlled by algorithms through APY, automatic staking, and compounding in your wallet, and multi-chain smart contracts providing the building blocks for the next generation of Defi development.
-                </p>
-
+                </p>     
 
             </div>
 
