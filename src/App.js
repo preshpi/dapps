@@ -1,23 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import RingLoader from "react-spinners/RingLoader";
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 
 function App() {
+  const  [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 8000)
+}, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+{
+        loading ?
+
+      <div className="loader">
+        <RingLoader
+        color={"#FF1700"} 
+        loading={loading} 
+        size={100} />
+       </div>
+
+        :
+    
+        <>
+        <Navbar />
+        <Main />
+        <Footer />
+        </>
+}
     </div>
   );
 }
