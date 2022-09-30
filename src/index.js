@@ -8,7 +8,7 @@ import 'flowbite';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <body className="bg-gray-900">
+    <body className="bg-gray-900 font-[roboto]">
       <App/>
     </body>
     
