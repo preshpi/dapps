@@ -23,7 +23,7 @@ function Main() {
                                     <h1 className="font-[nunito] mt-3">SIFU INU</h1>
                                     <p className="font-[nunito] mt-2">PRICE (SIFU INU) = 0.00000572 BNB</p>
                         </div>
-                        <div className="grid place-items-center ">    
+                        <div className="grid place-items-center">    
                             <div className="grid lg:w-[700px] place-items-center w-[250px]">
                                 <div className="bg-[#0f172a] py-5 lg:w-[500px] h-[520px] rounded-[20px] shadow-[20px] ">
                                         <div className="flex text-white gap-5 justify-between m-5 font-[roboto]">
@@ -52,49 +52,54 @@ function Main() {
                                         </div>
 
                                                                 {/* Form input and button */}
-                                        <div className="text-white gap-5 justify-between m-5 font-[roboto]">
-                                        <select class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline">
+                                        <div class="relative m-5">
+                                            <select class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
                                             <option value="disabled">Select</option>
-                                            <option>Option 1</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                            <option>Option 2</option>
-                                        </select>
+                                               <option>1</option>
+                                               <option>2</option>
+                                               <option>3</option>
+                                               <option>4</option>
+                                               <option>5</option>
+                                               <option>6</option>
+                                               <option>7</option>
+                                               <option>8</option>
+                                               <option>9</option>
+                                               <option>10</option>
+                                               <option>11</option>
+                                               <option>12</option>
+                                               <option>13</option>
+                                               <option>14</option>
+                                               <option>15</option>
+                                               <option>16</option>
+                                               <option>17</option>
+                                               <option>18</option>
+                                               <option>19</option>
+                                               <option>20</option>
+                                               <option>21</option>
+                                               <option>22</option>
+                                               <option>23</option>
+                                               <option>24</option>
+                                               <option>25</option>
+                                               <option>26</option>
+                                               <option>27</option>
+                                               <option>28</option>
+                                               <option>29</option>
+                                               <option>30</option>
+                                               <option>31</option>
+                                               <option>32</option>
+                                               <option>33</option>
+                                               <option>34</option>
+                                               <option>35</option>
+                                               <option>36</option>
+
+
+                                            </select>
+                                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                                            </div>
                                         </div>
 
-                                        <div className="text-white gap-5 justify-between m-5 font-[roboto]">                           
+                                        <div className="justify-between m-5 font-[roboto]">                           
                                         <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Amount"/>
                                         </div>
 
@@ -102,14 +107,40 @@ function Main() {
                                         <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-9 border-b-4 border-blue-700 hover:border-blue-500 rounded-full">
                                         STAKE BUTTON
                                         </button>     
-                                        </div>
-                                </div>    
+                                        </div>                                 
+                                </div>   
                             </div>
                                       
                         </div>
                     </div>
                 </div>
             </div> 
+        </div>
+
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 lg:text-xl text-sm md:text-x place-content-center m-5 mt-8 py-5">
+                <div className="flex text-white gap-5 justify-between m-5 font-[roboto]">
+                    <p>Total locked:</p>
+                    <p className="text-right text-[#FF1700]">2234Lodi</p>
+                    <div className="hr"></div>
+                </div>
+                
+                <div className="flex text-white gap-5 justify-between m-5 font-[roboto]">
+                    <p>Lock date:</p>
+                    <p className="text-right text-[#FF1700]">30-01-2022</p>
+                    <div className="hr"></div>
+                </div>
+                
+                <div className="flex text-white gap-5 justify-between m-5 font-[roboto]">
+                    <p>Released date:</p>
+                    <p className="text-right text-[#FF1700]">04-03-2022</p>
+                    <div className="hr"></div>
+                </div>
+                
+                <div className="flex text-white gap-5 justify-between m-5 font-[roboto]">
+                    <p>Total reward earned:</p>
+                    <p className="text-right text-[#FF1700]">56lodi</p>
+                    <div className="hr"></div>
+                </div>
         </div>
     </div>
   )

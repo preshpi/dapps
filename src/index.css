@@ -18,3 +18,8 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 600px;
     font-style: normal;
   }
+
+  .hr{
+    border-left: 2px solid white;
+    height: 30px;
+  }
